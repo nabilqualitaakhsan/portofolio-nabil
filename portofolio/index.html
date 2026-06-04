@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabil Qualita Akhsan — Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/Logo.jpg" />
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+
+  <body id="home" class="light-mode">
+
+    <!-- ═══════════════════════════════════
+         NAVBAR
+    ═══════════════════════════════════ -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#home" class="logo">
+         <a href="#home" class="logo">
+  <div class="logo-icon" style="padding:0;overflow:hidden;border-radius:50%;">
+    <img src="assets 2/Avatar/Poto.jpeg" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+  </div>
+  <span>Nabil<span class="grad-text">.dev</span></span>
+</a>
+        <!-- Desktop Menu -->
+        <nav class="nav-links" id="navLinks">
+          <a href="#home"     class="nav-link">Home</a>
+          <a href="#about"    class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#support"  class="nav-link">Support</a>
+          <a href="#contact"  class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Right controls -->
+        <div class="nav-controls">
+          <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon" id="darkIcon"></i>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════════
+         HERO
+    ═══════════════════════════════════ -->
+    <section class="hero section" id="hero">
+      <!-- BG decorations -->
+      <div class="hero-blob blob-1"></div>
+      <div class="hero-blob blob-2"></div>
+      <div class="hero-dots"></div>
+
+      <div class="container hero-container">
+        <!-- Text side -->
+        <div class="hero-text" data-aos="fade-right" data-aos-duration="800">
+          <div class="badge-available">
+            <span class="dot-green"></span>
+           Fresh Graduate SMA — Looking for Experience 📚
+          </div>
+
+          <h1 class="hero-heading">
+            Hi, I'm<br />
+            <span class="grad-text">Nabil Qualita AKhsan</span> 👋
+          </h1>
+
+          <p class="hero-sub">
+            Web Developer &amp; UI/UX Designer — crafting beautiful,
+            meaningful digital experiences that people love.
+          </p>
+
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Hire Me 🚀</a>
+            <a href="#"        class="btn btn-outline">Download CV 📄</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+          <span class="stat-num grad-text">UNESA</span>
+          <span class="stat-label">Universitas Negeri Surabaya 🏛️</span>
+ 
+          <span class="stat-num grad-text">S1</span>
+          <span class="stat-label">Informatika 💻</span>
+
+          <span class="stat-num grad-text">2026</span>
+          <span class="stat-label">Lulus SMA 🎓</span>
+
+          <span class="stat-num grad-text">100%</span>
+          <span class="stat-label">Semangat Belajar 🔥</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avatar side -->
+        <div class="hero-avatar" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+          <div class="avatar-ring"></div>
+          <div class="avatar-dashed"></div>
+          <div class="avatar-circle">
+           <div class="avatar-inner">
+<img src="assets 2/Avatar/Poto.jpeg" alt="Foto" style="width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:50%;" /> 
+</div>
+          </div>
+          <div class="avatar-badge badge-react">React ⚛️</div>
+          <div class="avatar-badge badge-figma">Figma 🎨</div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator">
+        <span>Scroll down</span>
+        <div class="scroll-box"><div class="scroll-dot"></div></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-badge">About Me</span>
+          <h2 class="section-title">Who am I? 🤔</h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio -->
+          <div class="about-bio" data-aos="fade-right" data-aos-duration="700">
+            <p>
+              Halo! Saya <strong class="grad-text">Nabil Qualita Akhsan</strong>,
+              seorang Mahawasiswa  &amp;  di Universitas Negeri Surabaya Teknik Informatika,
+            </p>
+            <p>
+              Saya passionate dalam hal yang berbaur Informatika Di bagian Web Developer.
+            </p>
+            <p>
+              Di luar coding, saya suka eksplorasi tren desain terbaru,
+              ngopi ☕, dan sering juga bermain game
+            </p>
+
+            <div class="about-tags">
+              <span class="tag">Creative Thinker 💡</span>
+              <span class="tag">Problem Solver 🔧</span>
+              <span class="tag">Team Player 🤝</span>
+              <span class="tag">Fast Learner ⚡</span>
+              <span class="tag">Coffee Addict ☕</span>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="about-skills" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+            <h3 class="skills-heading">Tech Stack &amp; Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info"><span>React / Next.js</span><span class="grad-text">10%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:10%; animation-delay:0s"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>UI/UX Design</span><span class="grad-text">40%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:40%; animation-delay:.1s"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Tailwind CSS</span><span class="grad-text">10%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:10%; animation-delay:.2s"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Node.js &amp; Express</span><span class="grad-text">10%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:10%; animation-delay:.3s"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>TypeScript</span><span class="grad-text">5%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:5%; animation-delay:.4s"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Figma &amp; Prototyping</span><span class="grad-text">5%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:5%; animation-delay:.5s"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Achievement cards -->
+        <div class="about-cards" data-aos="fade-up" data-aos-delay="150">
+          <div class="ach-card card-hover">
+            <span class="ach-icon">🎓</span>
+            <strong>S1 Informatika</strong>
+            <span>Universitas Negeri Surabaya</span>
+          </div>
+          <div class="ach-card card-hover">
+            <span class="ach-icon">💻</span>
+            <strong>Learning Web Dev</strong>
+            <span>HTML,CSS,JavaScript</span>
+          </div>
+          <div class="ach-card card-hover">
+            <span class="ach-icon">🛠️</span>
+            <strong>Tools</strong>
+            <span>Figma & Vs Code</span>
+          </div>
+          <div class="ach-card card-hover">
+            <span class="ach-icon">📚</span>
+            <strong>Currently Learning</strong>
+            <span>React & Tallwind</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         PROJECTS
+    ═══════════════════════════════════ -->
+    <section class="projects section bg-alt" id="projects">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-badge">My Work</span>
+          <h2 class="section-title">🚧 Coming Soon</h2>
+          <p class="section-sub">Sedang dalam pengerjaan...</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="0">
+            <div class="project-top" style="background:linear-gradient(135deg,#6C5CE722,#6C5CE744)">
+              <span class="project-emoji" style="animation-delay:0s">☕</span>
+              <div class="proj-deco" style="background:#6C5CE7"></div>
+            </div>
+            <div class="project-body">
+              <h3>Kopi Nusantara</h3>
+              <p>E-commerce platform kopi premium lokal Indonesia dengan UI yang clean dan modern.</p>
+              <div class="project-tags">
+                <span style="background:#6C5CE718;color:#6C5CE7">React</span>
+                <span style="background:#6C5CE718;color:#6C5CE7">Tailwind</span>
+                <span style="background:#6C5CE718;color:#6C5CE7">Stripe</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#6C5CE7">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="80">
+            <div class="project-top" style="background:linear-gradient(135deg,#FD79A822,#FD79A844)">
+              <span class="project-emoji" style="animation-delay:.3s">✅</span>
+              <div class="proj-deco" style="background:#FD79A8"></div>
+            </div>
+            <div class="project-body">
+              <h3>TaskFlow App</h3>
+              <p>Aplikasi manajemen tugas kolaboratif real-time dengan fitur drag-and-drop.</p>
+              <div class="project-tags">
+                <span style="background:#FD79A818;color:#FD79A8">Next.js</span>
+                <span style="background:#FD79A818;color:#FD79A8">Prisma</span>
+                <span style="background:#FD79A818;color:#FD79A8">WebSocket</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#FD79A8">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="160">
+            <div class="project-top" style="background:linear-gradient(135deg,#00B89422,#00B89444)">
+              <span class="project-emoji" style="animation-delay:.6s">🎨</span>
+              <div class="proj-deco" style="background:#00B894"></div>
+            </div>
+            <div class="project-body">
+              <h3>Saweria Clone UI</h3>
+              <p>Kloning UI platform donasi streaming yang colorful dan interaktif.</p>
+              <div class="project-tags">
+                <span style="background:#00B89418;color:#00B894">React</span>
+                <span style="background:#00B89418;color:#00B894">CSS</span>
+                <span style="background:#00B89418;color:#00B894">Animation</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#00B894">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="0">
+            <div class="project-top" style="background:linear-gradient(135deg,#FDCB6E22,#FDCB6E44)">
+              <span class="project-emoji" style="animation-delay:.9s">🌤️</span>
+              <div class="proj-deco" style="background:#FDCB6E"></div>
+            </div>
+            <div class="project-body">
+              <h3>WeatherBot Dashboard</h3>
+              <p>Dashboard cuaca interaktif dengan data real-time dari OpenWeatherMap API.</p>
+              <div class="project-tags">
+                <span style="background:#FDCB6E18;color:#d4a017">Vue.js</span>
+                <span style="background:#FDCB6E18;color:#d4a017">Chart.js</span>
+                <span style="background:#FDCB6E18;color:#d4a017">API</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#d4a017">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="80">
+            <div class="project-top" style="background:linear-gradient(135deg,#A29BFE22,#A29BFE44)">
+              <span class="project-emoji" style="animation-delay:1.2s">📝</span>
+              <div class="proj-deco" style="background:#A29BFE"></div>
+            </div>
+            <div class="project-body">
+              <h3>DailyBlog CMS</h3>
+              <p>Sistem manajemen konten blog dengan editor Markdown dan SEO optimizer.</p>
+              <div class="project-tags">
+                <span style="background:#A29BFE18;color:#6C5CE7">Next.js</span>
+                <span style="background:#A29BFE18;color:#6C5CE7">MDX</span>
+                <span style="background:#A29BFE18;color:#6C5CE7">Vercel</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#6C5CE7">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card card-hover" data-aos="fade-up" data-aos-delay="160">
+            <div class="project-top" style="background:linear-gradient(135deg,#FF767522,#FF767544)">
+              <span class="project-emoji" style="animation-delay:1.5s">💪</span>
+              <div class="proj-deco" style="background:#FF7675"></div>
+            </div>
+            <div class="project-body">
+              <h3>FitTrack Mobile UI</h3>
+              <p>Desain UI aplikasi fitness tracker dengan dark mode dan micro-animations.</p>
+              <div class="project-tags">
+                <span style="background:#FF767518;color:#FF7675">Figma</span>
+                <span style="background:#FF767518;color:#FF7675">React Native</span>
+                <span style="background:#FF767518;color:#FF7675">UI</span>
+              </div>
+              <a href="#" class="proj-link" style="color:#FF7675">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center" data-aos="fade-up">
+          <a href="#" class="btn btn-outline" style="margin-top:2.5rem">View All Projects 📂</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         SUPPORT / DONATE
+    ═══════════════════════════════════ -->
+    <section class="support section" id="support">
+      <div class="support-top-line"></div>
+
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-badge">Support Me</span>
+          <h2 class="section-title">Traktir Saya Kopi ☕</h2>
+          <p class="section-sub">Kalo kamu suka karyaku, beliin aku kopi yuk! Setiap dukungan sangat berarti 💜</p>
+        </div>
+
+        <div class="support-card" data-aos="fade-up" data-aos-delay="100">
+          <!-- Card top -->
+          <div class="support-top grad-bg">
+            <div class="support-top-deco d1"></div>
+            <div class="support-top-deco d2"></div>
+            <div class="support-coffee">☕</div>
+            <div class="support-name">Support Nabil Qualita AKhsan</div>
+            <div class="support-handle">@NabilAkhsan · Web Developer</div>
+          </div>
+
+       <!-- Card body -->
+          <div class="support-body">
+            
+
+            <a href="https://saweria.co/Nabilyaaa" target="_blank" class="btn-support shimmer-btn" style="display:block;text-align:center;text-decoration:none;">
+              Support ☕
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════ -->
+    <section class="contact section bg-alt" id="contact">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Hubungi Saya 📬</h2>
+          <p class="section-sub">Punya project atau ide menarik? Yuk ngobrol!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info -->
+          <div class="contact-info" data-aos="fade-right" data-aos-duration="700">
+            <div class="contact-item card-hover">
+              <div class="contact-icon grad-bg-soft">📧</div>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-val">nabilqualitaakhsan.@gmail.com</div>
+              </div>
+            </div>
+            <div class="contact-item card-hover">
+              <div class="contact-icon grad-bg-soft">📱</div>
+              <div>
+                <div class="contact-label">WhatsApp</div>
+                <div class="contact-val">+62 822 4565 8116</div>
+              </div>
+            </div>
+            <div class="contact-item card-hover">
+              <div class="contact-icon grad-bg-soft">📍</div>
+              <div>
+                <div class="contact-label">Lokasi</div>
+                <div class="contact-val">Surabaya, East Java, Indonesia</div>
+              </div>
+            </div>
+            <div class="contact-item card-hover">
+              <div class="contact-icon grad-bg-soft">⏰</div>
+              <div>
+                <div class="contact-label">Response Time</div>
+                <div class="contact-val">Biasanya &lt; 24 jam</div>
+              </div>
+            </div>
+
+            <div class="socials">
+              <p class="socials-label">Find me on social media</p>
+              <div class="social-icons">
+                <a href="https://github.cohttps://github.com/nabilqualitaakhsan?tab=overview&from=2026-04-01&to=2026-04-30"    target="_blank" class="social-btn" style="background:#24292e" title="GitHub">GH</a>
+                <a href="https://www.linkedin.com/in/nabil-qualita-akhsan-4bb2883a1?utm_source=share_via&utm_content=profile&utm_medium=member_android"  target="_blank" class="social-btn" style="background:#0077B5" title="LinkedIn">in</a>
+                <a href="https://www.instagram.com/m4ybemoon?igsh=MWJ2MTJndGh1bG9vcw==" target="_blank" class="social-btn" style="background:#E1306C" title="Instagram">Ig</a>
+                <a href="https://x.com/QualitaNab12461"   target="_blank" class="social-btn" style="background:#1DA1F2" title="Twitter">X</a>
+                <a href="https://dribbble.com/nabil-qualita-akhsan"  target="_blank" class="social-btn" style="background:#EA4C89" title="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+  <form action="https://formspree.io/f/xnjwdlgq" method="POST">
+    <div class="form-group">
+      <label>Nama Lengkap</label>
+      <input type="text" name="nama" placeholder="Nabil Qualita Akhsan" class="inp-style" required />
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" name="email" placeholder="nabilqualitaakhsan@gmail.com" class="inp-style" required />
+    </div>
+    <div class="form-group">
+      <label>Pesan</label>
+      <textarea name="pesan" rows="5" placeholder="Ceritakan project atau idemu..." class="inp-style" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-full">Kirim Pesan 🚀</button>
+  </form>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════ -->
+   <footer class="footer">
+  <div class="container footer-inner">
+    <a href="#home" class="logo">
+      <div class="logo-icon" style="padding:0;overflow:hidden;border-radius:50%;">
+        <img src="assets 2/Avatar/Poto.jpeg" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+      </div>
+      <span>Nabil<span class="grad-text">.dev</span></span>
+    </a>
+    <p>© <span id="year"></span> Nabil Qualita Akhsan. Made with 💜 &amp; ☕ in Sampang.</p>
+    <p class="footer-sub">Built with HTML, CSS &amp; JavaScript</p>
+  </div>
+</footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Main JS -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
